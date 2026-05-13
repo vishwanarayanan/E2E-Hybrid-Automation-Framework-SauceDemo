@@ -20,8 +20,10 @@ public static Object[][] getTestData(String excelPath,String sheetName){
 		Workbook workbook = new XSSFWorkbook(fis);
 		
 		Sheet sheet = workbook.getSheet(sheetName);
-		
+		System.out.println("Workbook loaded");  //Debug prints
+		System.out.println("Sheet: " + sheet);
 		int rows = sheet.getPhysicalNumberOfRows();
+		System.out.println("Rows: " + rows);
 		int cols = sheet.getRow(0).getPhysicalNumberOfCells();
 		
 		data = new Object[rows-1][cols];
@@ -34,7 +36,7 @@ public static Object[][] getTestData(String excelPath,String sheetName){
 		workbook.close();
 		fis.close();
 		
-	}catch(IOException e) {
+	}catch(Exception e) {
 		e.printStackTrace();
 	}
 	
