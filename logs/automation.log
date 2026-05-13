@@ -1,0 +1,6 @@
+2026-05-13 20:09:56                 [TestNG-tests-1] INFO  utils.LoggerUtil                 - Login attempted using: standard_user
+2026-05-13 20:10:03                 [TestNG-tests-1] INFO  utils.LoggerUtil                 - Login attempted using: problem_user
+2026-05-13 20:10:06                 [TestNG-tests-1] INFO  utils.LoggerUtil                 - Title:Swag Labs
+2026-05-13 20:38:11                 [TestNG-tests-1] INFO  utils.LoggerUtil                 - Login attempted using: standard_user
+2026-05-13 20:38:18                 [TestNG-tests-1] INFO  utils.LoggerUtil                 - Login attempted using: problem_user
+2026-05-13 20:38:20                 [TestNG-tests-1] INFO  utils.LoggerUtil                 - Title:Swag Labs

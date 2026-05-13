@@ -7,12 +7,13 @@ import base.BaseDriver;
 import dataproviders.LoginDataProvider;
 import pages.InventoryPage;
 import pages.LoginPage;
+import utils.LoggerUtil;
 
 public class LoginTest extends BaseDriver{
 	
 	@Test
 	public void verifyLoginPageLoads() {
-		System.out.println("Title:"+ getDriver().getTitle());
+		LoggerUtil.info("Title:"+ getDriver().getTitle());
 	}
 	
 	@Test(dataProvider ="loginData",
@@ -27,10 +28,10 @@ public class LoginTest extends BaseDriver{
 	
 	InventoryPage inventoryPage = new InventoryPage(getDriver());
 	
-	Assert.assertTrue(inventoryPage.IsInventoryPageDisplayed() , "Login failed for user:" + username);
+	Assert.assertTrue(inventoryPage.isInventoryPageDisplayed() , "Login failed for user:" + username);
 	
 	//System.out.println("Login attempted using config data");
-	System.out.println("Login attempted using: "  + username);
+	LoggerUtil.info("Login attempted using: "  + username);
 	
 	
 	

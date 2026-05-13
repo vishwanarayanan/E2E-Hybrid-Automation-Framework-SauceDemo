@@ -14,15 +14,26 @@ public class ScreenshotUtil {
 		
 		File src =((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		
-		String path  = "reports/" + testName + ".png";
+	//logic befor Loggerutil//	String path  = "reports/" + testName + ".png";
+		
+		String timestamp =
+		        String.valueOf(
+		                System.currentTimeMillis());
+
+		String path =
+		        "reports/"
+		        + testName
+		        + "_"
+		        + timestamp
+		        + ".png";
 		
 		try {
 			Files.copy(src.toPath(), new File(path).toPath());
 			}catch(IOException e) {
 				
-				e.printStackTrace();
+			//	e.printStackTrace();
 				
-			//	LoggerUtil.error("Screenshot failed", e);
+				LoggerUtil.error("Screenshot capture failed");
 			}
 		
 		return path;

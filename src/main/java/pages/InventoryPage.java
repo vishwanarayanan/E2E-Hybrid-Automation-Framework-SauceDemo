@@ -14,7 +14,7 @@ public class InventoryPage {
 	
 	By InventoryTitle = By.className("title");
 	
-	public boolean IsInventoryPageDisplayed() {
+	public boolean isInventoryPageDisplayed() {
 		
 		return driver.findElement(InventoryTitle).isDisplayed();
 	}
