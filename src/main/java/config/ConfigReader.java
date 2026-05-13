@@ -35,6 +35,13 @@ public class ConfigReader {
 		return properties.getProperty("password");
 	}
 	
+	public int getExplicitWait() {
+		
+		return Integer.parseInt(properties.getProperty("explicitWait"));
+	}
+
+	
+	
 	
 	
 	
