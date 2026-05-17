@@ -11,13 +11,13 @@ import utils.LoggerUtil;
 
 public class LoginTest extends BaseDriver{
 	
-	@Test
+	@Test(retryAnalyzer = retry.RetryAnalyzer.class)
 	public void verifyLoginPageLoads() {
 		LoggerUtil.info("Title:"+ getDriver().getTitle());
 	}
 	
 	@Test(dataProvider ="loginData",
-			dataProviderClass =LoginDataProvider.class)
+			dataProviderClass =LoginDataProvider.class, retryAnalyzer = retry.RetryAnalyzer.class)
 	public void verifyLogin(String username,
             String password) {
 	
