@@ -2,16 +2,16 @@
 <testng-results retried="2" ignored="2" total="8" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-17T14:33:04 IST" name="SauceDemo Automation Suite" finished-at="2026-05-17T14:33:26 IST" duration-ms="22073">
+  <suite started-at="2026-05-17T15:58:38 IST" name="SauceDemo Automation Suite" finished-at="2026-05-17T15:58:56 IST" duration-ms="17740">
     <groups>
     </groups>
-    <test started-at="2026-05-17T14:33:04 IST" name="Smoke Tests" finished-at="2026-05-17T14:33:26 IST" duration-ms="22073">
+    <test started-at="2026-05-17T15:58:38 IST" name="Smoke Tests" finished-at="2026-05-17T15:58:56 IST" duration-ms="17740">
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-17T14:33:06 IST" name="setup" finished-at="2026-05-17T14:33:16 IST" duration-ms="9591" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-17T15:58:39 IST" name="setup" finished-at="2026-05-17T15:58:46 IST" duration-ms="6407" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-17T14:33:16 IST" name="verifyLogin" data-provider="loginData" finished-at="2026-05-17T14:33:16 IST" duration-ms="420" status="PASS">
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-17T15:58:46 IST" name="verifyLogin" data-provider="loginData" finished-at="2026-05-17T15:58:46 IST" duration-ms="428" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,15 +27,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-17T14:33:16 IST" name="tearDown" finished-at="2026-05-17T14:33:16 IST" duration-ms="313" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-17T15:58:46 IST" name="tearDown" finished-at="2026-05-17T15:58:47 IST" duration-ms="315" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-17T14:33:16 IST" name="setup" finished-at="2026-05-17T14:33:18 IST" duration-ms="1365" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-17T15:58:47 IST" name="setup" finished-at="2026-05-17T15:58:48 IST" duration-ms="1310" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method retried="true" signature="verifyLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-17T14:33:18 IST" name="verifyLogin" data-provider="loginData" finished-at="2026-05-17T14:33:18 IST" duration-ms="256" status="SKIP">
+        <test-method retried="true" signature="verifyLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-17T15:58:48 IST" name="verifyLogin" data-provider="loginData" finished-at="2026-05-17T15:58:48 IST" duration-ms="275" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -56,9 +56,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.39.0', revision: '126f156aee'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [82d7f0983f2255bc60d149e494a3f35f, findElement {using=class name, value=title}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\Vishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59033}, goog:processID: 40580, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59033/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 82d7f0983f2255bc60d149e494a3f35f]]>
+Command: [38e1f46462ac0676a355eb9ad9866d01, findElement {value=title, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\Vishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49679}, goog:processID: 43420, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49679/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 38e1f46462ac0676a355eb9ad9866d01]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".title"}
@@ -67,9 +67,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.39.0', revision: '126f156aee'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [82d7f0983f2255bc60d149e494a3f35f, findElement {using=class name, value=title}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\Vishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59033}, goog:processID: 40580, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59033/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 82d7f0983f2255bc60d149e494a3f35f
+Command: [38e1f46462ac0676a355eb9ad9866d01, findElement {value=title, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\Vishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49679}, goog:processID: 43420, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49679/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 38e1f46462ac0676a355eb9ad9866d01
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
@@ -112,15 +112,15 @@ at java.base/java.lang.Thread.run(Thread.java:1474)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-17T14:33:18 IST" name="tearDown" finished-at="2026-05-17T14:33:18 IST" duration-ms="316" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-17T15:58:48 IST" name="tearDown" finished-at="2026-05-17T15:58:48 IST" duration-ms="290" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-17T14:33:18 IST" name="setup" finished-at="2026-05-17T14:33:20 IST" duration-ms="1557" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-17T15:58:48 IST" name="setup" finished-at="2026-05-17T15:58:50 IST" duration-ms="1535" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method retried="true" signature="verifyLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-17T14:33:20 IST" name="verifyLogin" data-provider="loginData" finished-at="2026-05-17T14:33:20 IST" duration-ms="230" status="SKIP">
+        <test-method retried="true" signature="verifyLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-17T15:58:50 IST" name="verifyLogin" data-provider="loginData" finished-at="2026-05-17T15:58:50 IST" duration-ms="244" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -141,9 +141,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.39.0', revision: '126f156aee'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c02cbd649310b869f7b4afc880151d17, findElement {using=class name, value=title}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\Vishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50757}, goog:processID: 6988, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50757/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c02cbd649310b869f7b4afc880151d17]]>
+Command: [ce61075963e142560b4987cc9487bc7b, findElement {value=title, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\Vishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65102}, goog:processID: 38348, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65102/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ce61075963e142560b4987cc9487bc7b]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".title"}
@@ -152,9 +152,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.39.0', revision: '126f156aee'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c02cbd649310b869f7b4afc880151d17, findElement {using=class name, value=title}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\Vishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50757}, goog:processID: 6988, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50757/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c02cbd649310b869f7b4afc880151d17
+Command: [ce61075963e142560b4987cc9487bc7b, findElement {value=title, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\Vishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65102}, goog:processID: 38348, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65102/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ce61075963e142560b4987cc9487bc7b
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
@@ -197,15 +197,15 @@ at java.base/java.lang.Thread.run(Thread.java:1474)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-17T14:33:20 IST" name="tearDown" finished-at="2026-05-17T14:33:20 IST" duration-ms="305" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-17T15:58:50 IST" name="tearDown" finished-at="2026-05-17T15:58:50 IST" duration-ms="306" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-17T14:33:20 IST" name="setup" finished-at="2026-05-17T14:33:22 IST" duration-ms="1280" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-17T15:58:50 IST" name="setup" finished-at="2026-05-17T15:58:52 IST" duration-ms="1292" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-17T14:33:22 IST" name="verifyLogin" data-provider="loginData" finished-at="2026-05-17T14:33:22 IST" duration-ms="259" status="FAIL">
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-17T15:58:52 IST" name="verifyLogin" data-provider="loginData" finished-at="2026-05-17T15:58:52 IST" duration-ms="305" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -226,9 +226,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.39.0', revision: '126f156aee'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [07cfc633f05ebae7d7392fe24516124b, findElement {using=class name, value=title}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\Vishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64245}, goog:processID: 19976, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64245/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 07cfc633f05ebae7d7392fe24516124b]]>
+Command: [b23f30f6c7c35f484b300a5a32a628ef, findElement {value=title, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\Vishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63665}, goog:processID: 40408, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63665/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b23f30f6c7c35f484b300a5a32a628ef]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".title"}
@@ -237,9 +237,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.39.0', revision: '126f156aee'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [07cfc633f05ebae7d7392fe24516124b, findElement {using=class name, value=title}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\Vishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64245}, goog:processID: 19976, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64245/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 07cfc633f05ebae7d7392fe24516124b
+Command: [b23f30f6c7c35f484b300a5a32a628ef, findElement {value=title, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\Vishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63665}, goog:processID: 40408, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63665/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b23f30f6c7c35f484b300a5a32a628ef
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
@@ -282,15 +282,15 @@ at java.base/java.lang.Thread.run(Thread.java:1474)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-17T14:33:22 IST" name="tearDown" finished-at="2026-05-17T14:33:22 IST" duration-ms="300" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-17T15:58:52 IST" name="tearDown" finished-at="2026-05-17T15:58:52 IST" duration-ms="324" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-17T14:33:22 IST" name="setup" finished-at="2026-05-17T14:33:24 IST" duration-ms="1662" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-17T15:58:52 IST" name="setup" finished-at="2026-05-17T15:58:54 IST" duration-ms="1303" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-17T14:33:24 IST" name="verifyLogin" data-provider="loginData" finished-at="2026-05-17T14:33:24 IST" duration-ms="314" status="PASS">
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-17T15:58:54 IST" name="verifyLogin" data-provider="loginData" finished-at="2026-05-17T15:58:54 IST" duration-ms="297" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -306,19 +306,19 @@ at java.base/java.lang.Thread.run(Thread.java:1474)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-17T14:33:24 IST" name="tearDown" finished-at="2026-05-17T14:33:25 IST" duration-ms="352" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-17T15:58:54 IST" name="tearDown" finished-at="2026-05-17T15:58:54 IST" duration-ms="415" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-17T14:33:25 IST" name="setup" finished-at="2026-05-17T14:33:26 IST" duration-ms="1274" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-17T15:58:54 IST" name="setup" finished-at="2026-05-17T15:58:56 IST" duration-ms="1260" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginPageLoads()[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-17T14:33:26 IST" name="verifyLoginPageLoads" finished-at="2026-05-17T14:33:26 IST" duration-ms="8" status="PASS">
+        <test-method signature="verifyLoginPageLoads()[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-17T15:58:56 IST" name="verifyLoginPageLoads" finished-at="2026-05-17T15:58:56 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageLoads -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-17T14:33:26 IST" name="tearDown" finished-at="2026-05-17T14:33:26 IST" duration-ms="341" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@2cb4893b]" started-at="2026-05-17T15:58:56 IST" name="tearDown" finished-at="2026-05-17T15:58:56 IST" duration-ms="283" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

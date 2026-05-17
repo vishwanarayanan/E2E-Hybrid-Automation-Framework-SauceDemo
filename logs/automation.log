@@ -9,3 +9,13 @@
 2026-05-17 14:33:20                 [TestNG-tests-1] INFO  utils.LoggerUtil                 - Retrying test:verifyLogin|RetryCount 2
 2026-05-17 14:33:24                 [TestNG-tests-1] INFO  utils.LoggerUtil                 - Login attempted using: problem_user
 2026-05-17 14:33:26                 [TestNG-tests-1] INFO  utils.LoggerUtil                 - Title:Swag Labs
+2026-05-17 15:57:41                 [TestNG-tests-1] INFO  utils.LoggerUtil                 - Login attempted using: standard_user
+2026-05-17 15:57:43                 [TestNG-tests-1] INFO  utils.LoggerUtil                 - Retrying test:verifyLogin|RetryCount 1
+2026-05-17 15:57:46                 [TestNG-tests-1] INFO  utils.LoggerUtil                 - Retrying test:verifyLogin|RetryCount 2
+2026-05-17 15:57:53                 [TestNG-tests-1] INFO  utils.LoggerUtil                 - Login attempted using: problem_user
+2026-05-17 15:57:55                 [TestNG-tests-1] INFO  utils.LoggerUtil                 - Title:Swag Labs
+2026-05-17 15:58:46                 [TestNG-tests-1] INFO  utils.LoggerUtil                 - Login attempted using: standard_user
+2026-05-17 15:58:48                 [TestNG-tests-1] INFO  utils.LoggerUtil                 - Retrying test:verifyLogin|RetryCount 1
+2026-05-17 15:58:50                 [TestNG-tests-1] INFO  utils.LoggerUtil                 - Retrying test:verifyLogin|RetryCount 2
+2026-05-17 15:58:54                 [TestNG-tests-1] INFO  utils.LoggerUtil                 - Login attempted using: problem_user
+2026-05-17 15:58:56                 [TestNG-tests-1] INFO  utils.LoggerUtil                 - Title:Swag Labs

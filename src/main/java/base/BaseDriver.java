@@ -6,6 +6,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
 import config.ConfigReader;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -31,7 +34,20 @@ public void setup() {
 		WebDriverManager.chromedriver().setup();
 		driver.set(new ChromeDriver());
 		
-	}else {
+	}else if(browser.equalsIgnoreCase("edge")) {
+		
+		WebDriverManager.edgedriver().setup();
+		driver.set(new EdgeDriver());
+	}
+	else if (browser.equalsIgnoreCase("firefox")) {
+
+	    WebDriverManager.firefoxdriver().setup();
+
+	    driver.set(new FirefoxDriver());
+	}
+	
+	
+	else {
 		throw new
 	RuntimeException("Browser not supported");	
 	}
